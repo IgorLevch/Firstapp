@@ -14,7 +14,6 @@ import java.io.IOException;
 public class SecondServlet extends HttpServlet {
 
 
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8");
