@@ -14,6 +14,7 @@ public class BootstrapListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
 
 
+
         ServletContext cs = sce.getServletContext();
          //ServletContext - это такая штука в Сервлет API, через которую
         // осуществляются все межкомпонентные взаимодействия
