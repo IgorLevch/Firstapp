@@ -16,7 +16,6 @@ public class ProductRepository {
 
 
 
-
     // список всех продкутов:
     public List<Product> findAll(){
         return new ArrayList<>(u.values());  // это мы создали обертку для Мапы
